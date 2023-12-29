@@ -23,7 +23,7 @@ function App() {
       </h1>
 
       <dl className="dictionary">
-        {emojipedia.map(createEntry)};
+        {emojipedia.map(createEntry)}
       </dl>
     </div>
   );
