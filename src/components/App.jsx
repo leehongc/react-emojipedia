@@ -12,12 +12,12 @@ function App() {
       </h1>
 
       <dl className="dictionary">
-        {emojipedia.map(emojipedia => (
+        {emojipedia.map(entry => (
     <Entry 
-    key = {emojipedia.id}
-    emoji = {emojipedia.emoji}
-    name = {emojipedia.name}
-    meaning = {emojipedia.meaning}
+    key = {entry.id}
+    emoji = {entry.emoji}
+    name = {entry.name}
+    meaning = {entry.meaning}
     />
   ))}
       </dl>
